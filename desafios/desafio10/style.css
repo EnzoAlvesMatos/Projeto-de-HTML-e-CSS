@@ -7,11 +7,11 @@
 
 body {
     width: 100vw;
-    height: 100vh;
-    background-image: url("img/espaco300.jpg");
-    min-height: 100vh;
+     height: 70vh;
+    background-image: url("img/espaco.jpg");
     background-position: center center;
     background-size: cover;
+    background-attachment: fixed;
 
 }
 
