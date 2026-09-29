@@ -1,5 +1,4 @@
-# Projeto de HTML e CSS
-
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6100A3,100:9600A3&height=180&section=header&text=Projeto%20de%20HTML%20e%20CSS&fontSize=40&fontColor=ffffff&animation=fadeIn"/>
 <h2>🖱️ Sobre o Projeto</h2>
 
 <h3>❓ O Que é o Projeto</h3>
