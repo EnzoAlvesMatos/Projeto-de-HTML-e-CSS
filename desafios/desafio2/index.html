@@ -1,15 +1,85 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-    <title>dragonBall</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio</title>
+  <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h2>desafio de colocar imagem</h2>
-    <p>inseri duas imagens sobre um anime chamado dragon ball</p>
+    <header>
+      <h1>Testando Imagens</h1>
+    </header>
+<main>
+     <h2>Desafio de Colocar Imagem</h2>
+    <p>Inseri duas imagens sobre um anime chamado dragon ball</p>
     <img src="img/dragonBall.jpeg" alt="dragonBall" />
+    <picture>
+      <source media="(max-width: 400px)" srcset="img/logo-DragonBall200.png" type="image/png">
+      <source media="(max-width: 800px )" srcset="img/logo-DragonBall400.png" type="image/png">
     <img src="img/logo-DragonBall650.png" alt="logo-DragonBall" />
+    </picture>
+    <h2>Desafio de Mapa</h2>
+    <p>Estou criando um mapa neste desafio</p>
+    <div>
+      <div class="div-img">
+      <picture>
+        <source media="(max-width: 602px)" srcset="img/mapa-pq03.png" type="image/png">
+
+      <img src="img/mapa03.png" alt="" /> 
+      </picture>
+      <picture>
+        <source media="(max-width: 602px)" srcset="img/mapa-pq07.png" type="image/png">
+      <img src="img/mapa07.png" alt="" />
+      </picture>
+        <picture>
+          <source media="(max-width: 602px )" srcset="img/mapa-pq05.png" type="image/png">
+      <img src="img/mapa05.png" alt="" /><br />
+      </picture>
+        <picture>
+      <source media="(max-width: 602px)" srcset="img/mapa-pq09.png" type="image/png">
+      <img src="img/mapa09.png" alt="" />
+      </picture>
+        <picture>
+          <source media="(max-width: 602px)" srcset="img/mapa-pq01.png" type="image/png">
+      <img src="img/mapa01.png" 
+      alt="" />
+      </picture>
+        <picture>
+          <source media="(max-width: 602px)" srcset="img/mapa-pq08.png" type="image/png">
+      <img src="img/mapa08.png" alt="" />
+      </picture>
+      <br />
+        <picture>
+          <source media="(max-width: 602px)" srcset="img/mapa06-pq.png" type="image/png">
+      <img src="img/mapa06.png" alt="" />
+      </picture>
+        <picture>
+          <source media="(max-width: 602px)" srcset="img/mapa-pq02.png" type="image/png">
+      <img src="img/mapa02.png" alt="" />
+      </picture>
+        <picture>
+          <source media="(max-width: 602px)" srcset="img/mapa-pq04.png" type="image/png">
+      <img src="img/mapa04.png" alt="" />
+      </picture>
+   </div>
+   
+      <h2>Desafio de imagem flexivel</h2>
+    <p>Experimente aumentar e diminuir a sua tela</p>
+    <picture>
+      <source
+        media="(max-width:750px )"
+        srcset="img/estudante300.jpg"
+        type="image/jpg"
+      />
+      <source
+        media="(max-width: 1050px )"
+        srcset="img/estudante700.jpg"
+        type="image/jpg"
+      />
+      <img src="img/estudante1000.jpg" alt="" />
+    </picture>
+  </main>
+  <footer><p>Site feito por <a src="https://github.com/EnzoAlvesMatos?tab=overview&from=2025-05-01&to=2025-05-31">Enzo Alves Matos</a> </p></footer>
   </body>
 </html>
