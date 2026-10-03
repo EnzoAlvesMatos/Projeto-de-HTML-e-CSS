@@ -5,6 +5,10 @@
 
 <p>Neste desafio, eu treino o uso de emojis e também o uso das tags &lt;p&gt; e &lt;br&gt;. No final, listo algumas tags especiais. Depois de um tempo, aprimorei o desafio adicionando um &lt;footer&gt;, um &lt;header&gt; e um &lt;main&gt;. Também modifiquei o site para deixá-lo mais bonito, utilizando HTML5 e CSS3.</p>
 
+<p><strong>Site</strong></p>
+<img width="500" alt="desafioSite" src="https://github.com/user-attachments/assets/665f90c4-fcaa-4ba2-bd40-fcdb5787085f" />
+
+<p><strong>Código</strong></p>
 <img width="500" alt="desafio01html" src="https://github.com/user-attachments/assets/7840346a-a520-4e19-8e67-419760499574" />
 
 
