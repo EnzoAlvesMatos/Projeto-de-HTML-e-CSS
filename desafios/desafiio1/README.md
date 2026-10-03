@@ -3,13 +3,10 @@
 
 <h3>❓ O Que é o Desafio</h3>
 
-<p>Este desafio serve para treinar o que aprendi de HTML5 e CSS3. Com o tempo, fui aprimorando o projeto.
-</p>
-
-<h3>🧠 O que estou aprendendo</h3>
 <p>Neste desafio, eu treino o uso de emojis e também o uso das tags &lt;p&gt; e &lt;br&gt;. No final, listo algumas tags especiais. Depois de um tempo, aprimorei o desafio adicionando um &lt;footer&gt;, um &lt;header&gt; e um &lt;main&gt;. Também modifiquei o site para deixá-lo mais bonito, utilizando HTML5 e CSS3.</p>
-  
-<hr>
+
+<img width="500" alt="desafio01html" src="https://github.com/user-attachments/assets/7840346a-a520-4e19-8e67-419760499574" />
+
 
   <h2>💾 Tecnologias Usadas</h2>
   
@@ -23,6 +20,8 @@
 
   <img src="https://img.shields.io/badge/Visual_Studio_Code-000080?style=for-the-badge&logo=visual%20studio%20code&logoColor=white">
 
+<h2>🖨️ Como instalar e executar</h2>
+<p>Para utilizar este projeto, é necessário usar uma IDE, como o Visual Studio Code, ou o próprio Bloco de Notas. Também é necessário ter um navegador compatível com HTML5 e CSS3 para executar o projeto.</p>
   <h2>👨‍💻 Autor</h2>
   <h3>👍 Quem Sou Eu</h3>
   <p>Meu nome é Enzo Alves Matos, sou formado em Técnico em Desenvolvimento de Sistemas e, atualmente,
