@@ -23,13 +23,13 @@
 }
 body{
     height: 100%;
-    background:  var(--cor4);
+    background:  var(--cor2);
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
     width: 100%;
     height: 100px;
-        background: linear-gradient(to bottom, var(--cor2),var(--cor3), var(--cor4)) fixed no-repeat;
+        background: linear-gradient(to top, var(--cor2),var(--cor3), var(--cor4)) fixed no-repeat;
 
 }
 header > h1{
@@ -42,12 +42,12 @@ color: white;
 main{
     width: 80%;
     height: 100%;
-    background-color: #0f0f0fde;
+    background-color: #0f0f0fc2;
     margin: auto;
     margin-bottom: 30px;
     padding-bottom: 20px;
     padding-top: 20px;
-    box-shadow: 3px 3px 7px  rgba(0, 0, 0, 0.233),
+    box-shadow: 3px 3px 7px  rgba(0, 0, 0, 0.39),
      -3px 3px 7px rgba(0, 0, 0, 0.233);
      border-bottom-right-radius:5px ;
       border-bottom-left-radius:5px ;
@@ -80,7 +80,10 @@ margin: auto;
 main > a{
    text-align: center;
 }
-
+main > a > img{
+    display: block;
+    margin: auto;
+}
 h2{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -145,4 +148,28 @@ a.link:hover{
     margin-left: 30px;
     height: 401px;
     margin: auto;
+}
+footer{
+      width: 100%;
+    height: 90px;
+        background: linear-gradient(to bottom, var(--cor2),var(--cor3), var(--cor4)) fixed no-repeat;
+        font-family: var(--Titulo);
+
+}
+footer > p{
+color: white;
+font-size: 2.5em;
+font-family: var(--Titulo);
+text-align: center;
+padding-top: 15px;
+}
+footer > p > a{
+    color: white;
+    text-decoration: none;
+    font-family: var(--Titulo);
+
+}
+footer > p > a:hover{
+    color: var(--cor2);
+    text-decoration: underline;
 }
