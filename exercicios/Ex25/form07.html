@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+  </head>
+  <body>
+    <h1>Exemplo de Formulário</h1>
+
+    <form method="post">
+      <p>
+        <label for="ijogos">Jogos</label>
+        <select name="jogos" id="ijogos">
+          <optgroup label="Aventura">
+            <option value="Minecraft">Minecraft</option>
+            <option value="theSims">The Sims</option>
+            <option value="gta5">GTA5</option>
+          </optgroup>
+          <optgroup label="Luta">
+            <option value="mortalKombat">Mortal Kombat</option>
+            <option value="brawlhalla">Brawlhalla</option>
+            <option value="streetFighter">Street Fighter</option>
+          </optgroup>
+          <optgroup label="Battle Royale">
+            <option value="fortnite">Fortnite</option>
+            <option value="freeFire">Free Fire</option>
+            <option value="stumbleGuys">Stumble Guys</option>
+          </optgroup>
+        </select>
+      </p>
+      <p>
+        <label for="iprof">Profissões</label>
+        <input type="text" name="prof" id="iprof" list="profi" />
+        <datalist id="profi">
+          <option>Professor</option>
+          <option>Programador</option>
+          <option>Advogado</option>
+          <option>Médico</option>
+        </datalist>
+      </p>
+      <p>
+        <label for="imsg">Mensagem</label>
+        <br />
+        <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+      </p>
+      <p>
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Limpar" />
+      </p>
+    </form>
+  </body>
+</html>

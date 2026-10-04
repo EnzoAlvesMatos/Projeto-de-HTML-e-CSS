@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uso do iframe</title>
+    <link rel="stylesheet" href="paginasExtras/style.css" />
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      ul {
+        list-style-type: "\1F5F8\00A0\00A0";
+      }
+      a {
+        text-decoration: none;
+        color: rgb(2, 61, 2);
+      }
+      a:hover {
+        color: gray;
+      }
+      a:visited {
+        color: rgb(5, 241, 5);
+      }
+      iframe {
+        display: block;
+        width: 95%;
+        height: 400px;
+        border: 2px solid black;
+        margin: auto;
+      }
+      main {
+        padding-bottom: 10px;
+        margin-top: 20px;
+        border-top-left-radius: 1%;
+        border-top-right-radius: 1%;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Faça uma escolha</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab temporibus
+        amet, nulla et itaque ea natus similique! Necessitatibus rerum
+        voluptatum itaque, sapiente aliquam molestiae! Architecto molestias
+        officiis sit ipsum cupiditate? Lorem ipsum dolor sit, amet consectetur
+        adipisicing elit. A optio obcaecati quas sunt harum molestias, eos
+        corporis ullam nostrum hic debitis quo at nisi tempore iste iusto
+        officia perspiciatis illum.
+      </p>
+      <ul>
+        <li>
+          <a target="frame" href="paginasExtras/pagena01.html"
+            >Primeira Pagina</a
+          >
+        </li>
+        <li>
+          <a target="frame" href="paginasExtras/pagina02.html"
+            >Segunda Pagina</a
+          >
+        </li>
+        <li>
+          <a target="frame" href="paginasExtras/pagina03.html"
+            >Terceira Pagina</a
+          >
+        </li>
+      </ul>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus saepe
+        consectetur necessitatibus! Porro accusamus tenetur illo hic obcaecati
+        fugit adipisci ullam, cumque voluptatem delectus ea vitae quidem,
+        debitis numquam fuga. Lorem ipsum dolor sit, amet consectetur
+        adipisicing elit. Eum obcaecati cum laudantium culpa nemo officia
+        maiores amet. Velit fugit enim sit iusto, illum, tempore laboriosam at
+        nostrum recusandae esse doloremque? Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Vitae commodi dolor perferendis fuga
+        voluptate sint architecto inventore! Veritatis, reprehenderit? Deserunt
+        enim facilis reiciendis quia, expedita fuga error. Dolores, soluta
+        veniam.
+      </p>
+      <iframe
+        id="tela"
+        name="frame"
+        srcdoc=" <h1>Escolha uma da opções a cima</h1>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, veniam laborum cum, atque officia aut deserunt natus ab id odit possimus exercitationem dolores neque vitae sed praesentium, architecto ut incidunt!</p>
+       <img src='paginasExtras/img/Site Teste60.png'>"
+      ></iframe>
+    </main>
+  </body>
+</html>

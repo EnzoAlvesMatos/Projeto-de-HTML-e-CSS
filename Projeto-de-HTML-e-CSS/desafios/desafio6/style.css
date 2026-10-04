@@ -1,0 +1,140 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Patua+One&display=swap');
+.patua-one-regular {
+  font-family: "Patua One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+;
+.sriracha-regular {
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+:root{
+   --fonte-texto:"Sriracha", cursive;
+}
+
+
+
+*{
+   margin: 0;
+   padding: 0;
+}
+html, body{
+   min-height: 100vh;
+}
+header{
+   
+   width: 100%;
+   height: 100px;
+   background-color: black;
+}
+header h1{
+   color: white;
+   text-align: center;
+   padding-top: 20px;
+   font-family: "Patua One", serif ;
+}
+header p{
+   color: white;
+   text-align: center;
+    font-family: "Patua One", serif ;
+    font-size: 0.8em;
+       display: block;  
+}
+main p{
+  text-align: left; 
+  width: 45%;
+  line-height: 2em;
+  font-family: "Patua One", serif ;
+  margin-left: 30px;
+  margin-top: 60px;
+  margin-right: 50px;
+  font-size: 1.5em;
+   min-width: 305px;
+ max-width: 800px;
+ padding-bottom: 10px;
+}
+.aside1{
+   background-attachment: fixed;
+    background-image: url('pacote-d012/imagens/background003.jpg');
+ background-size: cover;
+ background-position: right;
+ padding-bottom: 10vh;
+ padding-top: 10vh;
+
+
+}
+.p1{
+ min-height: 300px;
+    background-color: rgba(0, 0, 0, 0.432) ;
+   color: white; 
+   font-family: var(--fonte-texto);
+   
+}
+.aside2{
+    background-image: url('pacote-d012/imagens/background002.jpg');
+    background-attachment: fixed;
+ background-size: cover;
+ background-position: right;
+ padding-bottom: 10vh;
+ padding-top: 10vh;
+}
+ .p2{
+   background-color: rgba(0, 0, 0, 0.432) ;
+   color: white;
+   height: 320px;
+   padding-bottom: 30px;
+   font-family: var(--fonte-texto);
+   
+
+   
+}
+footer{
+   width: 100%;
+   height: 100px;
+   background-color: black;
+   color: white;
+   position: relative;
+}
+footer p{
+   color: white;
+   text-align: center;
+    font-family: "Patua One", serif ;
+    font-size: 1em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+footer a{
+   color: white;
+   text-decoration: none;
+}
+footer a:hover{
+   color: gray;
+   text-decoration: underline;
+}
+footer a:visited{
+   color: rgb(0, 230, 0);
+}
+header a:active{
+   color: red;
+}
+header a{
+   color: white;
+   text-decoration: none;
+}
+header a:hover{
+   color: gray;
+   text-decoration: underline;
+}
+header a:visited{
+   color: rgb(0, 230, 0);
+}
+header a:active{
+   color: red;
+}
+
+

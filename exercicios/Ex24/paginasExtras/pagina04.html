@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      ul {
+        list-style-type: "\1F5F8\00A0\00A0";
+      }
+      a {
+        text-decoration: none;
+        color: rgb(2, 61, 2);
+      }
+      a:hover {
+        color: gray;
+      }
+      a:visited {
+        color: rgb(5, 241, 5);
+      }
+      iframe {
+        display: block;
+        width: 95%;
+        height: 400px;
+        border: 2px solid black;
+        margin: auto;
+      }
+      main {
+        padding-bottom: 10px;
+        margin-top: 20px;
+        border-top-left-radius: 1%;
+        border-top-right-radius: 1%;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>javascript</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor quisquam
+        et repellat corrupti unde dolores, quidem minima, soluta esse
+        reprehenderit, doloribus vel fugit? Voluptatibus adipisci sint aliquam
+        sunt reiciendis laudantium?
+      </p>
+      <a href="#" onclick="Clicou()">Clique aqui</a>
+      <div id="Saida"></div>
+      <script>
+        function Clicou() {
+          s = window.document.getElementById("Saida");
+          s.innerHTML += `<p>Você Clicou</p>`;
+        }
+      </script>
+    </main>
+  </body>
+</html>

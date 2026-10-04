@@ -1,0 +1,204 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: 'FontGame';
+    src: url('fonte/Gameplay.ttf') format('truetype');
+    font-weight: lighter;
+}
+@font-face {
+    font-family: 'FontPrincipal';
+    src: url('fonte/HeadingNowTrial-44RegularItalic.ttf') format('truetype');
+    font-weight: lighter;
+}
+:root{
+    --tituloSecundario: 'FontGame';
+    --tituloPrincipal: 'FontPrincipal';
+    --texto: Arial, Helvetica, sans-serif;
+    --cor0: #2b1f33;
+    --cor1: #000aa3;
+    --cor2: #2b00a3;
+    --cor3: #6100a3;
+    --cor4: #003da3;
+    --cor5: #9600a3;
+    --cor6: #9500a348;
+}
+body{
+background-color: #6200a393;
+font-family: var(--texto);
+}
+header{
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor3));
+}
+header > h1{
+   padding: 10px;
+   font-family: var(--tituloPrincipal); 
+   color: white;
+   text-align: center;
+   font-size: 4em;
+   
+}
+header > nav{
+ display: block;
+ margin-top: 40px;
+ margin-left: 10px;
+ margin-right: 10px;
+ 
+}
+header > nav > a{
+    padding: 2px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bolder;
+    font-family: var(--tituloPrincipal);
+    color: rgb(171, 129, 187);
+}
+header > nav > a:hover{
+    background-color:rgb(171, 129, 187);
+    border-radius: 3px;
+    color: var(--cor0);
+}
+main{
+     display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 80%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.363), 5px 5px 5px rgba(0, 0, 0, 0.363);
+    
+    
+}
+main > h1{
+font-family: var(--tituloSecundario);
+color: var(--cor3);
+text-align: center;
+font-family: 2em;
+
+}
+main > h2{
+  text-indent: 10px;
+  font-family: var(--tituloSecundario);
+  color:  #6a0274;  
+  background-image: linear-gradient(to right,  #6200a3ab, transparent);
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
+main > p{
+    line-height: 1.7em;
+    text-indent: 30px;
+    max-width: 1000px;
+    min-width: 100px;
+   
+}
+
+
+
+.perfil {
+    margin: auto;
+    border-radius: 50%;
+    width: 210px;
+    background-color: var(--cor5);
+    padding: 5px;
+}
+
+ul {
+    line-height: 1.5em;
+    padding-left: 10px;
+    list-style-type: '\1F47E\00A0\00A0';
+    list-style-position: inside;
+}
+
+strong {
+    color: var(--cor3);
+}
+
+.icon {
+    min-width: 300;
+    position: relative;
+    display: inline-flex;
+    width: 40px;
+    border-radius: 50%;
+
+}
+
+.redes-sociais {
+
+    padding-left: 10px;
+    list-style-type: '\00A0\00A0';
+    list-style-position: inside;
+    columns: 4;
+
+}
+.perfil-img{
+    display: block;
+    width: 200px;
+    margin: auto;
+
+
+}
+.redes-sociais-link{
+    min-width: 200;
+    text-indent: 10px;
+    position: sticky;
+    display: block;
+    color: var(--cor3);
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.redes-sociais-link:hover {
+
+    color: var(--cor0);
+}
+
+.redes-sociais-link:visited {
+    color: var(--cor2);
+}
+abbr{
+    text-decoration: none;
+    color: var(--cor5);
+    font-weight: bold;
+}
+abbr:hover{
+    text-decoration: underline;
+    color: white;
+    background-color: var(--cor5);
+}
+
+
+footer{
+    background-color: var(--cor0);
+    margin-top: 50px;
+    height: 100px;
+    width: 100%;
+}
+footer > p{
+   font-family: var(--tituloPrincipal); 
+   color: white;
+   text-align: center;
+   font-size: 2em; 
+   padding-top: 30px;
+}
+footer > p > a{
+    font-family: var(--tituloPrincipal);
+    color: white;
+    text-decoration: none;
+}
+footer > p > a:hover{
+    text-decoration: underline;
+    color: rgb(171, 129, 187);
+}
+footer > p > a:visited{
+     color: var(--cor2);
+}
