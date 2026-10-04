@@ -8,12 +8,12 @@
 </p>
 
 <p><strong>Site</strong></p>
-<img width="500" alt="desafio03Site" src="https://github.com/user-attachments/assets/fdc7a2c5-4652-4508-bc3f-a2d85e51680f" />
+<img width="500" alt="desafio03Site" src="../readmeImg/desafio03Site.png" />
 
 
 
 <p><strong>Código</strong></p>
-<img width=500" alt="desafio03Codigo" src="https://github.com/user-attachments/assets/85887dd2-3392-46c2-82b6-6c254de66a24" />
+<img width="500" alt="desafio03Codigo" src="../readmeImg/desafio03Codigo.png" />
 
 
 

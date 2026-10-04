@@ -8,14 +8,14 @@
 </p>
 
 <p><strong>Site</strong></p>
-<img width="500" alt="desafio06Site" src="https://github.com/user-attachments/assets/9cc774ce-0c9d-43b5-93f2-b7084d6cc093" />
+<img width="500" alt="desafio06Site" src="../readmeImg/desafio06Site.png" />
 
 
 
 
 
 <p><strong>Código</strong></p>
-<img width="500"alt="desafio06Codigo" src="https://github.com/user-attachments/assets/85ac6515-d5ea-48a3-9724-f4e4922e787a" />
+<img width="500"alt="desafio06Codigo" src="../readmeImg/desafio06Codigo.png" />
 
 
 

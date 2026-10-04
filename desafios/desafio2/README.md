@@ -8,12 +8,12 @@
   Também montei um mapa com algumas imagens e, com o tempo, modifiquei o site para deixá-lo mais bonito.</p>
 
 <p><strong>Site</strong></p>
-<img width="500"alt="desafio02Site" src="https://github.com/user-attachments/assets/6604d044-e815-4b54-990f-ed7f985ab6cc" />
+<img width="500"alt="desafio02Site" src="../readmeImg/desafio02Site.png" />
 
 
 
 <p><strong>Código</strong></p>
-<img width="500" alt="desafio02Codigo" src="https://github.com/user-attachments/assets/51be21fc-ce28-405e-ab5a-20412e2192cc" />
+<img width="500" alt="desafio02Codigo" src="../readmeImg/desafio02Codigo.png" />
 
 
 

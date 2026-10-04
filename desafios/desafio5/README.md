@@ -8,13 +8,13 @@
 </p>
 
 <p><strong>Site</strong></p>
-<img width="500" alt="desafio05Site" src="https://github.com/user-attachments/assets/ae3475c0-95a7-4bc9-951f-9ed7fe6ac20a" />
+<img width="500" alt="desafio05Site" src="../readmeImg/desafio05Site.png" />
 
 
 
 
 <p><strong>Código</strong></p>
-<img width="500" alt="desafio05Codigo" src="https://github.com/user-attachments/assets/eb27d541-44a7-4ecd-b56e-81254384f5d1" />
+<img width="500" alt="desafio05Codigo" src="../readmeImg/desafio05Codigo.png" />
 
 
 

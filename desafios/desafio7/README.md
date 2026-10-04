@@ -9,7 +9,7 @@
 </p>
 
 <p><strong>Site</strong></p>
-<img width="500" alt="desafio07Site" src="https://github.com/user-attachments/assets/4b7904b8-e00c-4a09-b23f-ff92940aa8a8" />
+<img width="500" alt="desafio07Site" src="../readmeImg/desafio07Site.png" />
 
 
 
@@ -17,7 +17,7 @@
 
 
 <p><strong>Código</strong></p>
-<img width="500" alt="desafio07Codigo" src="https://github.com/user-attachments/assets/fb3616de-f317-48c2-9865-4ba15595031c" />
+<img width="500" alt="desafio07Codigo" src="../readmeImg/desafio07Codigo.png" />
 
 
 
