@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      table {
+        border: 2px solid black;
+        border-collapse: collapse;
+        width: 300px;
+        text-align: center;
+        position: relative;
+      }
+      caption {
+        background-color: gray;
+        border-left: 2px solid black;
+        border-top: 2px solid black;
+        border-right: 2px solid black;
+        font-weight: bold;
+        font-size: 1.8em;
+        padding: 10px;
+      }
+      tr.linha2 {
+        background-color: gray;
+        color: white;
+        font-weight: bold;
+        font-size: 1.2em;
+      }
+      tr.linha2 {
+        position: sticky;
+        top: -1px;
+        background-color: gray;
+      }
+      td {
+        padding: 10px;
+        border: 2px solid black;
+      }
+      th {
+        border: 2px solid black;
+        padding: 10px;
+      }
+      th.especial {
+        color: white;
+        background-color: rgb(41, 38, 38);
+        font-size: 1.2em;
+      }
+      tr.linha:nth-child(2n) {
+        background-color: rgba(2, 104, 2, 0.705);
+      }
+      tr.linha {
+        background-color: rgba(2, 230, 2, 0.705);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Exercicio de Tabela</h1>
+    <table>
+      <thead>
+        <tr>
+          <caption>
+            Pesquisa sobre filmes Favoritos
+          </caption>
+        </tr>
+        <tr class="linha2">
+          <th scope="col">Grupo</th>
+          <th scope="col">Nomes</th>
+          <th scope="colgroup" colspan="3">Filmes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="linha">
+          <th scope="rowgroup" class="especial" rowspan="4">Mulheres</th>
+          <td>Beatriz</td>
+          <td>Vingadores Ultimato</td>
+          <td>Homem Aranha Longe de Casa</td>
+          <td>Homem formiga e a vespa</td>
+        </tr>
+        <tr class="linha">
+          <td>Maria</td>
+          <td>A Casa Monstro</td>
+          <td>O Rei Leão</td>
+          <td>Homem Aranha através do Aranha Verso</td>
+        </tr>
+        <tr class="linha">
+          <td>Eduarda</td>
+          <td>Barbie</td>
+          <td>Peter Pan</td>
+          <td>Os Incriveis</td>
+        </tr>
+        <tr class="linha">
+          <td>Ana</td>
+          <td>Carros</td>
+          <td>Zootopia</td>
+          <td>ratatouille</td>
+        </tr>
+        <tr class="linha">
+          <th scope="rowgroup" class="especial" rowspan="4">Homens</th>
+          <td>Enzo</td>
+          <td>Homem Aranha</td>
+          <td>Vingadores Era De Ultron</td>
+          <td>Dragon Ball Super: Super Heros</td>
+        </tr>
+        <tr class="linha">
+          <td>Pedro</td>
+          <td>Guardians Of The Galaxy</td>
+          <td>A Era Do Gelo</td>
+          <td>Vingadores Guerra Infinita</td>
+        </tr>
+        <tr class="linha">
+          <td>Guilherme</td>
+          <td>Homem-Aranha Longe De Casa</td>
+          <td>O Espetacular Homem-Aranha</td>
+          <td>Homem-Aranha 2</td>
+        </tr>
+        <tr class="linha">
+          <td>Herysson</td>
+          <td>Shrek 2</td>
+          <td>Gato de Botas 2: O Último Pedido</td>
+          <td>Como Treinar o Seu Dragão</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

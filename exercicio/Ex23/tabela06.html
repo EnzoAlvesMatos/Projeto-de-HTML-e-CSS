@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tabelas responsivas</title>
+  </head>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    table {
+      border-collapse: collapse;
+      border: 2px solid black;
+      width: 500px;
+    }
+    caption {
+      background-color: gray;
+      font-weight: bolder;
+      font-size: 1.8em;
+      border-left: 2px solid black;
+      border-right: 2px solid black;
+      border-top: 2px solid black;
+    }
+    th,
+    td {
+      border: 2px solid black;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: gray;
+      color: white;
+      font-size: 1.2em;
+    }
+    tr:nth-child(2n) {
+      background-color: rgba(255, 0, 0, 0.644);
+    }
+    tr {
+      background-color: rgba(109, 4, 4, 0.658);
+    }
+    col.cproduto {
+      background-color: rgba(218, 3, 3, 0.596);
+    }
+    div#conteiner {
+      overflow-x: auto;
+    }
+  </style>
+  <body>
+    <h1>Tabelas Responsivas</h1>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, tempora
+      culpa quas pariatur sunt fugit ipsum illum, exercitationem, tenetur iste
+      cupiditate eum. Asperiores eius fugiat architecto adipisci minima ducimus
+      illum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam
+      doloribus hic quas natus consequatur quae deserunt esse ea saepe! Earum
+      odio, eius pariatur provident laboriosam quasi fugit nostrum velit
+      eligendi.
+    </p>
+    <div id="conteiner">
+      <table>
+        <colgroup>
+          <col class="cproduto" />
+        </colgroup>
+        <caption>
+          Produtos
+        </caption>
+        <thead>
+          <tr>
+            <th>Produtos</th>
+            <th>Jan</th>
+            <th>Fev</th>
+            <th>Mar</th>
+            <th>Abr</th>
+            <th>Mai</th>
+            <th>Jun</th>
+            <th>Jul</th>
+            <th>Ago</th>
+            <th>Set</th>
+            <th>Out</th>
+            <th>Nov</th>
+            <th>Dez</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Notebook</td>
+            <td>06</td>
+            <td>03</td>
+            <td>05</td>
+            <td>10</td>
+            <td>08</td>
+            <td>09</td>
+            <td>01</td>
+            <td>20</td>
+            <td>12</td>
+            <td>14</td>
+            <td>16</td>
+            <td>30</td>
+          </tr>
+          <tr>
+            <td>Celular</td>
+            <td>09</td>
+            <td>03</td>
+            <td>05</td>
+            <td>11</td>
+            <td>08</td>
+            <td>09</td>
+            <td>21</td>
+            <td>50</td>
+            <td>12</td>
+            <td>14</td>
+            <td>36</td>
+            <td>70</td>
+          </tr>
+          <tr>
+            <td>Geladeira</td>
+            <td>56</td>
+            <td>43</td>
+            <td>01</td>
+            <td>10</td>
+            <td>08</td>
+            <td>09</td>
+            <td>41</td>
+            <td>20</td>
+            <td>12</td>
+            <td>14</td>
+            <td>26</td>
+            <td>30</td>
+          </tr>
+          <tr>
+            <td>Televisão</td>
+            <td>03</td>
+            <td>43</td>
+            <td>36</td>
+            <td>36</td>
+            <td>05</td>
+            <td>49</td>
+            <td>67</td>
+            <td>76</td>
+            <td>56</td>
+            <td>13</td>
+            <td>17</td>
+            <td>36</td>
+          </tr>
+          <tr>
+            <td>Microondas</td>
+            <td>46</td>
+            <td>03</td>
+            <td>05</td>
+            <td>56</td>
+            <td>08</td>
+            <td>76</td>
+            <td>02</td>
+            <td>02</td>
+            <td>06</td>
+            <td>23</td>
+            <td>05</td>
+            <td>30</td>
+          </tr>
+          <tr>
+            <td>Computador</td>
+            <td>56</td>
+            <td>04</td>
+            <td>75</td>
+            <td>10</td>
+            <td>39</td>
+            <td>30</td>
+            <td>10</td>
+            <td>30</td>
+            <td>40</td>
+            <td>79</td>
+            <td>39</td>
+            <td>60</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
