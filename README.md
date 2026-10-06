@@ -24,7 +24,8 @@
 
   <img src="https://img.shields.io/badge/Visual_Studio_Code-000080?style=for-the-badge&logo=visual%20studio%20code&logoColor=white">
 
-
+<h2>🖨️ Como instalar e executar</h2>
+<p>Para utilizar este projeto, é necessário usar uma IDE, como o Visual Studio Code, ou o próprio Bloco de Notas. Também é necessário ter um navegador compatível com HTML5 e CSS3 para executar o projeto.</p>
   <h2>👨‍💻 Autor</h2>
   <h3>👍 Quem Sou Eu</h3>
   <p>Meu nome é Enzo Alves Matos, sou formado em Técnico em Desenvolvimento de Sistemas e, atualmente,
