@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Desafio Formulário</h1>
+        </header>
+        <main>
+            <h1>Exemplo de Formulario</h1>
+            <form method="post" autocomplete="on">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <div>
+                        <label for="nome">Nome Completo:</label>
+                        <input type="text" name="nome" id="nome" required minlength="5" maxlength="100" placeholder="Ex: Alexandre Matos Pereira" autocomplete="name">
+                    </div>
+                    <div>
+                        <label for="idade">Ano de Nascimento</label>
+                        <input type="date" name="idade" id="idade" required>
+                    </div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email"  required autocomplete="email" placeholder="Ex: enzo0905@gmail.com">
+                    <div>
+                        <label for="profi">Profissão:</label>
+                        <input type="text" name="profi" id="profi" list="listprof" required>
+                        <datalist id="listprof">
+                                <option>Profesor</option>
+                                <option>Médico</option>
+                                <option>Programador</option>
+                                <option>Recepcionista</option>
+                        </datalist>
+                    </div>
+                    <div>
+                        <label for="estado">Qual seu Estado:</label>
+                        <select id="estado" name="estado" >
+                            <optgroup label="Região Norte">
+                                <option value="AC">Acre</option>
+                                <option value="AP">Amapá</option>
+                                <option value="AM">Amazonas</option>
+                                <option value="PA">Pará</option>
+                                <option value="RO">Rondônia</option>
+                                <option value="RP">Roraima</option>
+                                <option value="TO">Tocantins</option>
+                            </optgroup>
+                            <optgroup label="Região Nordeste">
+                                <option value="AL">Alagoas</option>
+                                <option value="BA">Bahia</option>
+                                <option value="CE">Ceará</option>
+                                <option value="MA">Maranhão</option>
+                                <option value="PB">Paraíba</option>
+                                <option value="PE">Pernambuco</option>
+                                <option value="PI">Piauí</option>
+                                <option value="RN">Rio Grande do Norte</option>
+                                <option value="SE">Sergipe</option>
+                            </optgroup>
+                            <optgroup label="Região Centro-Oeste">
+                                <option value="GO">Goiás</option>
+                                <option value="MT">Mato Grosso</option>
+                                <option value="MS">Mato Grosso do Sul</option>
+                                <option value="DF">Distrito Fedral (Brasilia a Capital do Pais)</option>
+                            </optgroup>
+                            <optgroup label="Região Sudeste">
+                                <option value="ES">Espírito Santo</option>
+                                <option value="MG">Minas Gerais</option>
+                                <option value="RJ">Rio de Janeiro</option>
+                                <option value="SP" selected>São Paulo</option>
+                            </optgroup>
+                            <optgroup label="Região Sul">
+                                <option value="PR">Paraná</option>
+                                <option value="RS">Rio Grande do Sul</option>
+                                <option value="SC">Santa Catarina</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                </fieldset>
+                <fieldset>
+                        <legend>Curiosidades</legend>
+                    <div>
+                    
+                        <label for="anime">Qual seu Anime Favorito</label>
+                        <input type="text" name="anime" id="anime" minlength="6" size="15" placeholder="Ex: Dragon Ball" required>
+                    </div>
+                    <div>
+                        <label for="cor">Qual sua Cor Favorita</label>
+                        <input type="color" name="cor" id="cor" value="red" required>
+                    </div>
+                </fieldset>
+                <input id="botao" type="submit" value="Enviar">
+            </form>
+        </main>
+            <footer><p>Site Criado por <a href="https://github.com/EnzoAlvesMatos">Enzo Alves Matos</a></p></footer>
+    </body>
+</html>
