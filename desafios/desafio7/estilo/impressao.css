@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3em;
+    line-height: 1.5;
+}
+header{
+    display: none;
+}
+ nav{
+    display: none;
+}
+footer{
+    display: none;
+}
+main{
+   width: 100%;
+   box-shadow: none; 
+}
+.video{
+    display: none;
+}
+main > article > h1{
+    color: black;
+}
+main > article > h2{
+    color: black;
+}
+aside{
+    box-shadow: none;
+
+}
+abbr{
+    text-decoration: none;
+}
+main strong{
+    color: black;
+}
+main a{
+    text-decoration: none;
+    color: black;
+}
+a.external::after{
+    display: none;
+}

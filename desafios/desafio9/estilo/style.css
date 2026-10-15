@@ -5,12 +5,12 @@
 }
 @font-face {
     font-family: 'Titulo';
-    src: url('fonte/HeadingNowTrial-44RegularItalic.ttf') format('truetype');
+    src: url('../fonte/HeadingNowTrial-44RegularItalic.ttf') format('truetype');
     font-weight: lighter;
 }
 @font-face {
     font-family: 'Fonte';
-    src: url('fonte/Gameplay.ttf') format('truetype');
+    src: url('../fonte/Gameplay.ttf') format('truetype');
 }
 :root{
     --Titulo: 'Titulo';

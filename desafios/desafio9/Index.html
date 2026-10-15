@@ -4,13 +4,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Formulario</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="estilo/Impressora.css" media="print">
+        <link rel="stylesheet" href="estilo/style.css">
     </head>
     <body>
         <header>
             <h1>Desafio Formulário</h1>
         </header>
-        <main>
+        <main class="main">
             <h1>Exemplo de Formulario</h1>
             <form method="post" autocomplete="on">
                 <fieldset>
@@ -90,7 +91,7 @@
                         <input type="color" name="cor" id="cor" value="red" required>
                     </div>
                 </fieldset>
-                <input id="botao" type="submit" value="Enviar">
+                <button id="botao" class="botao" type="submit" >Enviar</button>
             </form>
         </main>
             <footer><p>Site Criado por <a href="https://github.com/EnzoAlvesMatos">Enzo Alves Matos</a></p></footer>
