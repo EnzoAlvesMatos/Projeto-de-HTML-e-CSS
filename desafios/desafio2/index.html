@@ -13,11 +13,15 @@
 <main>
      <h2>Desafio de Colocar Imagem</h2>
     <p>Inseri duas imagens sobre um anime chamado dragon ball</p>
-    <img src="img/dragonBall.jpeg" alt="dragonBall" />
+        <picture>
+      <source media="(max-width: 602px)" srcset="img/DragonBallRaivosa100.png" type="image/png">
+      <source media="(max-width: 1255px )" srcset="img/DragonBallRaivosa200.png" type="image/png">
+    <img src="img/dragonBallRaivosa400.png" alt="DragonBall" />
+    </picture>
     <picture>
-      <source media="(max-width: 400px)" srcset="img/logo-DragonBall200.png" type="image/png">
-      <source media="(max-width: 800px )" srcset="img/logo-DragonBall400.png" type="image/png">
-    <img src="img/logo-DragonBall650.png" alt="logo-DragonBall" />
+      <source media="(max-width: 602px)" srcset="img/DragonBallDragon100.png" type="image/png">
+      <source media="(max-width: 1255px )" srcset="img/DragonBallDragon200.png" type="image/png">
+    <img src="img/DragonBallDragon400.png" alt="DragonBall" />
     </picture>
     <h2>Desafio de Mapa</h2>
     <p>Estou criando um mapa neste desafio</p>
@@ -68,12 +72,12 @@
     <p>Experimente aumentar e diminuir a sua tela</p>
     <picture>
       <source
-        media="(max-width:750px )"
+        media="(max-width:885px )"
         srcset="img/estudante300.jpg"
         type="image/jpg"
       />
       <source
-        media="(max-width: 1050px )"
+        media="(max-width: 1255px )"
         srcset="img/estudante700.jpg"
         type="image/jpg"
       />

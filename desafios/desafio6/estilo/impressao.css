@@ -13,11 +13,24 @@ body{
     line-height: 1.5;
     color: black;
 }
-br{
+
+header{
+    background: none;
+    margin:0px ;
+    padding: 0px;
+    
+}
+header > p{
     display: none;
 }
-header{
-    display: none;
+header h1{
+    display: block;
+    margin-left: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    font-size: 3em;
 }
 footer{
     display: none;
@@ -26,21 +39,23 @@ footer{
 article{
     width: 100%;
     height: 100%;
-    padding: 0px;
-    margin: 0px;
+    padding: 10px;
+    margin-bottom: 60px;
 }
 
 main p{
     font-family: 'Courier New', Courier, monospace;
-    padding: 0px;
-    margin: 0px;
+    margin-top: 0px;
+
+    width: 100%;
+        color: black;
 }
 .p2{
     background:none ;
     font-family: 'Courier New', Courier, monospace;
     color: black;
         width: 100%;
-    height: 100px;
+    height: 100%;
     padding: 0px;
 }
 .p1{
@@ -48,7 +63,7 @@ main p{
     font-family: 'Courier New', Courier, monospace;
     color: black;
     width: 100%;
-    height: 100px;
+    height: 100%;
     padding: 0px;
 
 }
@@ -59,7 +74,7 @@ main p{
     padding: 0px;
     margin: 0px;
   
-    height: 200px;
+
 }
 .aside2{
       font-weight: bold;
@@ -67,15 +82,18 @@ main p{
         padding: 0px;
     margin: 0px;
         background: none;
-    height: 200px;
+
 }
 main{
    font-family: 'Courier New', Courier, monospace;
    font-weight: normal;
 }
 main p{
-    margin: 0px;
-    padding: 0px;
     width: 100%;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5;
+    margin-bottom: 60px;
+
 }
 
