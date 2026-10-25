@@ -1,10 +1,9 @@
 @charset "UTF-8";
-
 *{
-    padding: 0px;
     margin: 0px;
-  
+    padding: 0px;
 }
+
 
 @font-face {
     font-family: 'Titulo1' ;
@@ -28,14 +27,12 @@
 }
 
 body, html{
-    height: 100vh;
     background: linear-gradient(to top, var(--cor2)), no-repeat fixed  ;
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
-    height: 200px;
-    width: 100vw;
+     width: 98vw;
     background: linear-gradient(to bottom, var(--cor5),var(--cor3), var(--cor2))no-repeat fixed;
     background-size: cover;
 }
@@ -47,35 +44,48 @@ header > h1{
     color: white;
 
 }
-nav{
-   margin-left: 0px ;
-    padding: 80px;
+
+menu{
+  display: none;
+
 }
-nav > a{
+header > menu > ul{
+    list-style-type: none;
+     margin-left: -2rem;
+    
+}
+
+menu > ul > li > a{
+    padding: 10px;
+    display: block;
    color: white;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 5px;
-    padding-top: 5px;
     text-decoration: none;
+    background-color: var(--cor5);
     font-size: 1.4em;
+    text-align: center;
+    border-top: 3px solid #1f1f70a4;
+    
 }
-nav > a:hover{
-    color: var(--cor3);
+menu > ul > li > a:hover{
     background-color: var(--cor2);
+}
+#menu{
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    color: white;
 }
 
 main{
-    height: 100vh;
+      width: 98vw;
     padding: 20px;
-    padding-top: 30px;
-    width: 90vw;
-    height: 100%;
+    padding-top: -30px;
     margin: auto;
     background: white no-repeat fixed;
     background-size: cover;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.432),
     -3px 3px 7px rgba(0, 0, 0, 0.432);
+     margin-top: -15px;
 
 }
 main h1{
@@ -106,16 +116,47 @@ div.card-body{
 
 
 }
+
 div.card{
-  
-    width: 50px;
+    margin-top: 20px;
+    display: block;
+    width: 15rem;
     border: 2px solid black;
-    margin: 20px;
 
 }
-div.inline{
-     display: flex;
-    gap: 20px;
-    padding: 5px 50px;
+main > article > ul{
+    display: inline-block;
+    list-style-type: none;
+    columns: 2;
+ 
 }
+main > article > ul > li{
+display: inline-block;
+line-height: 2em;
+   margin: auto;
+}
+footer{
+    width: 98vw;
+        height: 70px;
+    background: linear-gradient(to top, var(--cor5),var(--cor3), var(--cor2))no-repeat fixed;
+    background-size: cover;
+    margin-top: 20px;
+}
+footer > p{
+   font-family: var(--titulo1); 
+   color: white;
+   text-align: center;
+   font-size: 2em; 
+   padding-top: 10px;
+}
+footer > p > a{
+    font-family: var(--titulo1);
+    color: white;
+    text-decoration: none;
+}
+footer > p > a:hover{
+    text-decoration: underline;
+    color: var(--cor2);
+}
+
 
