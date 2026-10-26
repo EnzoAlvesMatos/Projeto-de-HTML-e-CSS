@@ -81,6 +81,7 @@ main{
     padding: 20px;
     padding-top: -30px;
     margin: auto;
+    padding: auto;
     background: white no-repeat fixed;
     background-size: cover;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.432),
