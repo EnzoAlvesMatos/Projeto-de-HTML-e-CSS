@@ -76,7 +76,8 @@ menu > ul > li > a:hover{
 }
 
 main{
-
+     padding-left: 10px;
+     padding-right: 10px;
     padding: 20px;
     padding-top: -30px;
     margin: auto;
