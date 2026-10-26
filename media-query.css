@@ -2,17 +2,9 @@
 
 @media screen and (min-width: 768px) {
       main{
-        width: 750px;
+        width: 768px;
      
     }
-    body, html{
-                 min-width: 98vw;
-                 max-width: 98.6vw;
-    }
-    header{
-                 min-width: 98vw;
-                 max-width: 98.6vw;
-    }
     #menu{
         display: none;
     }
@@ -31,76 +23,7 @@
     }
     div.card{
         width: 10rem;
-    }
-    footer{
-              width: 98vw;
     }
 }
-@media screen and (min-width: 992px) {
-      main{
-        width: 768px;
-    }
-    body, html{
-              width: 98.7vw;
-    }
-    header{
-              width: 98.7vw;
-             
-    }
-    #menu{
-        display: none;
-    }
-    menu{
-        display: block;
-    }
-    menu > ul > li{
-        display: inline-block;
-    }
-    menu > ul > li > a{
-        background-color: transparent;
-        border-top: none;
-    }
-    main > article > ul{
-        columns: 3;
-    }
-    div.card{
-        width: 10rem;
-    }
-    footer{
-              width: 98.7vw;
-    }
-}
-@media screen and (min-width: 1200px) {
-    main{
-        width: 768px;
-    }
-    body, html{
-          width: 98.9vw;
-    }
-    header{
-            width: 98.9vw;
-    }
-    #menu{
-        display: none;
-    }
-    menu{
-        display: block;
-    }
-    menu > ul > li{
-        display: inline-block;
-    }
-    menu > ul > li > a{
-        background-color: transparent;
-        border-top: none;
-    }
-    main > article > ul{
-        columns: 3;
-    }
-    div.card{
-        width: 10rem;
-    }
-    footer{
-            width: 98.9vw;
-    }
 
-}
+
