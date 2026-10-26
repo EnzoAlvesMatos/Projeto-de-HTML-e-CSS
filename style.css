@@ -76,12 +76,10 @@ menu > ul > li > a:hover{
 }
 
 main{
-     padding-left: 10px;
-     padding-right: 10px;
-    padding: 20px;
+    padding-top: 10px;
+     padding-left: 0px;
     padding-top: -30px;
     margin: auto;
-    padding: auto;
     background: white no-repeat fixed;
     background-size: cover;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.432),
@@ -119,11 +117,10 @@ div.card-body{
 }
 
 div.card{
-    margin-top: 20px;
-    margin-left: 5px;
-    margin-right: 5px;
     display: block;
-    width: 10rem;
+    padding: -px;
+    margin-top: 20px;
+    width: 8.5rem;
     border: 2px solid black;
 
 }
