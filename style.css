@@ -87,7 +87,6 @@ main{
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.432),
     -3px 3px 7px rgba(0, 0, 0, 0.432);
      margin-top: -15px;
-     padding-bottom: 20px;
 
 }
 main h1{
@@ -123,6 +122,7 @@ main > p{
 main > article > ul{
     display: inline-block;
  width: 85%;
+ padding-bottom: 20px;
     list-style-type: none;
     columns: 2;
  margin: auto;
