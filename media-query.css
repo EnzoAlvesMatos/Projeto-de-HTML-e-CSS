@@ -19,6 +19,7 @@
         border-top: none;
     }
     main > article > ul{
+        width: 100%;
         columns: 4;
     }
 
