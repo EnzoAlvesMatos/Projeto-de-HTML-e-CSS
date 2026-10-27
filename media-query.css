@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px){
       main{
         width: 768px;
      
@@ -19,11 +19,9 @@
         border-top: none;
     }
     main > article > ul{
-        columns: 3;
+        columns: 4;
     }
-    div.card{
-        width: 10rem;
-    }
+
 }
 
 
